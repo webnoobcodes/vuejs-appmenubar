@@ -1,5 +1,8 @@
 # vuejs-appbar
 
+- [Demonstration on Youtube](https://youtu.be/if03GXQJ34Y)
+
+
 ## Project setup
 ```
 npm install
@@ -25,5 +28,6 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+
+[MIT](LICENSE)

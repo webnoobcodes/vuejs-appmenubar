@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AppBar />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import AppBar from './components/AppBar.vue'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+    components: {
+      AppBar
+    }
   }
-}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+  @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #app {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+  }
 </style>
